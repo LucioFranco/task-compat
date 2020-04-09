@@ -6,6 +6,8 @@ edition = "2018"
 license = "MIT"
 readme = "README.md"
 description = "Utility crate to compat futures 0.1 and futures 0.3 tasks."
+documentation = "https://docs.rs/task-compat/0.1.0/task_compat"
+repository = "https://github.com/LucioFranco/task-compat"
 category = ["asynchronous"]
 keywords = ["task", "futures", "compat"]
 
