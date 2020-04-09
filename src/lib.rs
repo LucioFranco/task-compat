@@ -1,5 +1,13 @@
 //! Utilities for compating between futures 0.1 and futures 0.3 tasks.
 
+#![doc(html_root_url = "https://docs.rs/task-compat/0.1.0")]
+#![warn(
+    missing_debug_implementations,
+    missing_docs,
+    rust_2018_idioms,
+    unreachable_pub
+)]
+
 use futures01::{
     executor::{Notify, NotifyHandle, UnsafeNotify},
     Async, Poll as Poll01,
