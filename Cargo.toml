@@ -1,0 +1,15 @@
+[package]
+name = "task-compat"
+version = "0.1.0"
+authors = ["Lucio Franco <luciofranco14@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures01 = { version = "0.1", package = "futures"}
+futures03 = { version = "0.3", package = "futures", default-features = false }
+
+[dev-dependencies]
+tokio = { version = "0.2", features = ["rt-core", "macros", "sync"] }
+futures03 = { version = "0.3", package = "futures", features = ["compat"] }
