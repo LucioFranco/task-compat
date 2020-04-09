@@ -3,8 +3,12 @@ name = "task-compat"
 version = "0.1.0"
 authors = ["Lucio Franco <luciofranco14@gmail.com>"]
 edition = "2018"
+license = "MIT"
+readme = "README.md"
+description = "Utility crate to compat futures 0.1 and futures 0.3 tasks."
+category = ["asynchronous"]
+keywords = ["task", "futures", "compat"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 futures01 = { version = "0.1", package = "futures"}
